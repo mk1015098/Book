@@ -1,2 +1,40 @@
-<h1>Books#index</h1>
-<p>Find me in app/views/books/index.html.erb</p>
+<html>
+  <head>
+    <style type="text/css">
+      .turbolinks-progress-bar{
+        position: fixed;
+        display: block;
+        top: 0;
+        left: 0;
+        height: 3px;
+        background: #0076ff;
+        z-index: 9999;
+        transition: width 300ms ease-out, opacity 150ms 150ms ease-in;
+        transform: translate3d(0, 0, 0);
+      }
+    </style>
+    <link rel="stylesheet" media="all" href="/assets/stylesheets/application.css" date-turbolinks-track="reload">
+    <script src="/assets/stylesheets/application.css">
+    </script>
+    <title>WebCampBackendNew</title>
+    <meta name="csrf-param" content="authenticity_token">
+    <meta name="">
+  </head>
+
+  <body>
+    <p id="notice"></p>
+    <h1>Books</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Body</th>
+          <th colspan="3"></th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+  </body>
+</html>
