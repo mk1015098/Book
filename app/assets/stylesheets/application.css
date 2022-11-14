@@ -16,6 +16,15 @@ p, {
   margin: 33px;
 }
 
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a {
+  color: #000;
+}
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
